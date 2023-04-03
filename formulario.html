@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Document</title>
+</head>
+    <body>
+        <div class="header">
+            <header>
+                <h1>Mi aplicacion</h1>
+            </header>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="search.html">Buscador</a></li>
+                    <li><a href="formulario.html">Formulario</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main class="contenedor-2">
+            <section class="contenedor-2-agg-com">
+                <div class="imagen-usuario">
+                    <img src="img/usuario.png" >
+                </div>
+                <div class="input-com">
+                    <input id="nuevoComentario" type="text" placeholder="Nuevo Comentario...">
+                    <div class="btn-agg">
+                        <button onclick="nComentario()">comentar</button>
+                    </div>  
+                </div>
+            </section>
+        </main>
+        <ul id="comentarios" class="contenedor-3">
+
+        </ul>
+        <div class="footer">
+            <footer>
+                <p>&copy; 2023 Mi aplicación</p>
+            </footer>
+        
+        </div>
+        
+    <script src="js/main.js"></script>    
+    </body>
+
+
+</html>

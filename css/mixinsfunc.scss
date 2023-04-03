@@ -1,0 +1,6 @@
+// mixin justificacion pagina web
+@mixin crear-flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
